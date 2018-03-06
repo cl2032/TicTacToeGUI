@@ -109,7 +109,7 @@ public class GUI extends JFrame implements ActionListener
             for(int x=0; x < size; x++)   
             {
                 btnEmpty[y][x] = new JButton();
-                btnEmpty[y][x].setBackground(new Color(220, 220, 220));
+                btnEmpty[y][x].setBackground(new Color(0, 220, 220));
                 btnEmpty[y][x].addActionListener(this);
                 pnlPlayingField.add(btnEmpty[y][x]);
                 btnEmpty[y][x].setEnabled(setTableEnabled);
