@@ -1,9 +1,8 @@
 #BlueJ class context
-comment0.target=BusinessLogic
-comment1.params=currentMove2\ currentMove\ remainingMoves\ font\ btnEmpty\ startingPlayer
-comment1.target=void\ GetMove(int,\ int,\ int,\ java.awt.Font,\ javax.swing.JButton[][],\ java.lang.String)
-comment2.params=pnlSouth\ pnlPlayingField
-comment2.target=void\ ShowGame(javax.swing.JPanel,\ javax.swing.JPanel)
-comment3.params=pnlSouth\ pnlTop\ pnlNewGame\ pnlPlayingField\ pnlBottom\ radioPanel
-comment3.target=void\ ClearPanelSouth(javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel)
-numComments=4
+comment0.params=currentMove2\ currentMove\ remainingMoves\ font\ btnEmpty\ startingPlayer
+comment0.target=void\ GetMove(int,\ int,\ int,\ java.awt.Font,\ javax.swing.JButton[][],\ java.lang.String)
+comment1.params=pnlSouth\ pnlPlayingField
+comment1.target=void\ ShowGame(javax.swing.JPanel,\ javax.swing.JPanel)
+comment2.params=pnlSouth\ pnlTop\ pnlNewGame\ pnlPlayingField\ pnlBottom\ radioPanel
+comment2.target=void\ ClearPanelSouth(javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel,\ javax.swing.JPanel)
+numComments=3

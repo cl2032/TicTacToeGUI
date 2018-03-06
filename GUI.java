@@ -12,7 +12,7 @@ public class GUI extends JFrame implements ActionListener
     int bot = Integer.parseInt(JOptionPane.showInputDialog(null, "Press 1 for single Player and 2 for Two Player"));
     boolean botOn;
 
-    JFrame window = new JFrame("Kenneth's Tic Tac Toe Game");
+    JFrame window = new JFrame("CHRIS's Tic Tac Toe Game");
 
     JMenuBar mnuMain = new JMenuBar();
     JMenuItem   mnuNewGame = new JMenuItem("  New Game"), 
@@ -63,7 +63,7 @@ public class GUI extends JFrame implements ActionListener
         pnlNorth.setLayout(new FlowLayout(FlowLayout.CENTER));
         pnlSouth.setLayout(new FlowLayout(FlowLayout.CENTER));
 
-        pnlNorth.setBackground(new Color(70, 70, 70));
+        pnlNorth.setBackground(new Color(70, 0, 70));
         pnlSouth.setBackground(new Color(color, color, color));
 
         pnlTop.setBackground(new Color(color, color, color));
